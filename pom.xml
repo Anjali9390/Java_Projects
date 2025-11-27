@@ -5,6 +5,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
+<<<<<<< HEAD
 		<version>4.0.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
@@ -13,6 +14,16 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<name>Employee-Payroll-System</name>
+=======
+		<version>3.5.7</version>
+		<relativePath/> <!-- lookup parent from repository -->
+	</parent>
+	<groupId>com.example</groupId>
+	<artifactId>EmployeeManagement </artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
+	<name>EmployeeManagement </name>
+>>>>>>> 0b13749cfad951019e38c573196ba78a53a5446c
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
@@ -37,7 +48,11 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
+<<<<<<< HEAD
 			<artifactId>spring-boot-starter-webmvc</artifactId>
+=======
+			<artifactId>spring-boot-starter-web</artifactId>
+>>>>>>> 0b13749cfad951019e38c573196ba78a53a5446c
 		</dependency>
 
 		<dependency>
@@ -52,12 +67,16 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
+<<<<<<< HEAD
 			<artifactId>spring-boot-starter-data-jpa-test</artifactId>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-webmvc-test</artifactId>
+=======
+			<artifactId>spring-boot-starter-test</artifactId>
+>>>>>>> 0b13749cfad951019e38c573196ba78a53a5446c
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
